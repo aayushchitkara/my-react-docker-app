@@ -42,4 +42,4 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: "my-react-frontend-weu"
-          i
+          images: "myreactregistryweu.azurecr.io/my-react-frontend:${{ github.sha }}"
